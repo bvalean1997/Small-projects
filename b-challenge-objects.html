@@ -1,0 +1,27 @@
+<html>
+<head>
+    <title>Objects</title>
+</head>
+<body>
+    <script>
+    
+    // Implement an animal object with the following properties: type(e.g.Dog), name(e.g.Rex),
+    //  gut(an array of items that the animal ate, e.g. ['Bones', 'Meat']), 
+    // and the following method: eat(food) which adds the food the animals gut.
+    
+        var animal = {
+            type: "cat",
+            name: "Rex",
+            gut: ["Bones", "Meat"],
+            eats: function(food) {
+                return this.gut.push(food);
+            }
+        };
+     
+      console.log(animal.eats('fish'));
+      console.log(animal);
+
+
+    </script>
+</body>
+</html>

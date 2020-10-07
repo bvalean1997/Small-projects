@@ -1,0 +1,32 @@
+<html>
+<head>
+    <title>The sum of positive numbers</title>
+</head>
+<body>
+    <script>    
+    // Write a function that takes as an arguments an array of numbers and returns the sum of the positive numbers.
+
+    // For example: For the array[-2, 10, 2, 4, -6, 3] it must return 10 + 2 + 4 + 3 which is 19.
+
+    var array = [-2, 10, 2, 4, -6, 3];
+    
+
+    function sumPositive(array){
+    var sum = 0;
+    for(var i = 0; i < array.length; i++) {
+        if(array[i] > 0) {
+            sum = sum + array[i];
+        }
+    }
+
+    return sum;
+    }
+    
+
+      
+
+
+
+    </script>
+</body>
+</html>

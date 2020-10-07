@@ -1,0 +1,25 @@
+<html>
+<head>
+    <title>Medium homework</title>
+</head>
+
+<body>
+    <script>
+    var currentHour = new Date().getHours();
+
+    function timeOfTheDay (){
+        if (currentHour < 12){
+            console.log("Good morning");
+        }
+        else if (currentHour >12 && currentHour < 6){
+            console.log("Good afternoon");
+        }
+        else {
+            console.log("Good evening");
+        }
+    }
+    timeOfTheDay();
+    
+    </script>
+</body>
+</html>

@@ -1,0 +1,25 @@
+<html>
+<head>
+    <title>Generate random names</title>
+</head>
+<body>
+    <script>
+    // Write a function that generates a random name by combining firstNames and lastNames randomly.
+    // Start from two hardcoded arrays
+    // The function should generate a single random name like John Cruise,
+
+    var firstNames = ['John', 'Matthew', 'Thomas', 'Christian', 'David'];
+    var lastNames = ['Smith', 'Pitt', 'Cruise', 'Robinson'];
+
+    var names = [];
+    
+    var firstRandomName = firstNames[Math.floor(Math.random() * firstNames.length)];
+    var secondRandomName = lastNames[Math.floor(Math.random() * lastNames.length)];
+    
+    
+    
+    console.log(firstRandomName, secondRandomName);
+
+    </script>
+</body>
+</html>
